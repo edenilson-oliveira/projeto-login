@@ -1,0 +1,89 @@
+@charset 'UTF-8';
+@media screen and (min-width: 768px) and (max-width: 992px){
+  main{
+    background-image: linear-gradient( to top,#49a09d,#5f2c82)
+  }
+  section#principal{
+    width: 750px;
+    height: 300px;
+    display: flex;
+  }
+  section div#imagen{
+    display: block;
+    width: 200px;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+  }
+  section#conteudo{
+    width: 570px;
+  }
+  form .caixa-form,.caixa-form input, div#esqueci-senha{
+    width: 540px;
+    height: 40px;
+    padding: 5px;
+  }
+  .caixa-form input{
+    width: 490px;
+    height: 30px;
+  }
+  input#enviar{
+    width: 550px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  main{
+    background-image: linear-gradient( to top,#49a09d,#5f2c82)
+  }
+  section#principal{
+    width: 750px;
+    height: 300px;
+    display: flex;
+  }
+  section div#imagen{
+    display: block;
+    width: 200px;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+  }
+  section#conteudo{
+    width: 570px;
+  }
+  form .caixa-form,.caixa-form input, div#esqueci-senha{
+    width: 550px;
+  }
+  .caixa-form input{
+    width: 490px;
+  }
+  input#enviar{
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  main{
+    background-image: linear-gradient( to top,#49a09d,#5f2c82)
+  }
+  section#principal{
+    width: 800px;
+    height: 320px;
+    display: flex;
+  }
+  section div#imagen{
+    display: block;
+    width: 240px;
+    height: 100%;
+    border-radius: 15px 0px 0px 15px;
+  }
+  section#conteudo{
+    width: 590px;
+  }
+  form .caixa-form,.caixa-form input, div#esqueci-senha{
+    width: 570px;
+  }
+  .caixa-form input{
+    width: 506px;
+  }
+  input#enviar{
+    width: 570px;
+  }
+}

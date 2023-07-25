@@ -1,0 +1,102 @@
+@charset 'UTF-8';
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+/*
+verde: #49a09d
+roxo: #5f2c82
+*/
+main{
+  width: 100vw;
+  height: 100vh;
+  background-color: #5f2c82;
+  position: relative;
+}
+
+section#principal{
+  background-color: white;
+  width: 250px;
+  height: 510px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+}
+section h2{
+  text-align: center;
+}
+section h2,p{
+  padding: 5px;
+}
+
+section p{
+  font-size: 0.7em;
+}
+
+section div#imagen{
+  background-image: url(../imagen/metal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  width: 250px;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+section div#formulario{
+  padding: 10px;
+}
+
+form .caixa-form{
+  background-color: #5f2c82;
+  width: 230px;
+  height: 45px;
+  margin-bottom: 5px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.caixa-form input{
+  height: 35px;
+  width: 185px;
+  background-color: #81B5CB/*#6BB0BF*/;
+  position: absolute;
+  top: 4px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.caixa-form input:hover{
+  background-color: white;
+}
+.caixa-form input::placeholder{
+  padding: 5px;
+}
+label i{
+  display: block;
+  margin-top: 4px;
+  color: white;
+  padding: 6px;
+}
+input#enviar{
+  background-color: #81B5CB;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  width: 230px;
+  height: 45px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  color: white;
+}
+div#esqueci-senha{
+  background-color: white;
+  border: 1px solid #81B5CB;
+  border-radius: 5px;
+  text-align: center;
+  height: 45px;
+  color: #81B5CB;
+}
